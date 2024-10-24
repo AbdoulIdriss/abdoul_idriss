@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+
 const Schema = mongoose.Schema;
 
 const studentSchema = new Schema({
@@ -28,7 +29,7 @@ const studentSchema = new Schema({
     courseHistory: 
     [{ 
         type: Schema.Types.ObjectId, 
-        ref: 'Course' 
+        ref: 'Enrollment' 
     }]
 });
 

@@ -5,6 +5,6 @@ const router = Router();
 const scheduleController = require('../src/controllers/schedule.controller');
 
 
-router.post('/courses/:courseId/schedules', scheduleController.addSchedule);
+router.post('/courses/schedules', scheduleController.addSchedule);
 
-module.exports = router;
+module.exports = { router };

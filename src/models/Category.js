@@ -6,14 +6,15 @@ const categorySchema = new Schema({
   
   name: 
     { 
-      type: String, 
+      type: String,
+      enum : ['mathematics', 'physics' , 'biology'],
       required: true 
     },
 
   description: 
     { 
       type: String, 
-      required: true 
+      required: false 
     }
 });
 

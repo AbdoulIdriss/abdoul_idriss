@@ -1,10 +1,11 @@
 Courses:
 
     Course ID (Primary Key)
-    Name
+    Title
     Description
     Category (Foreign Key to Category entity)
     Duration
+    Instructor (Foreign key to Instructor entity)
 
 
 Students:
@@ -27,7 +28,6 @@ Instructors:
     Last Name
     Email
     Contact Number
-    Courses Taught (Foreign Key to Courses)
 
 
 
@@ -56,3 +56,5 @@ Categories:
     Category ID (Primary Key)
     Name
     Description
+
+    671a07957351572cae930bc0
