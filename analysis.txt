@@ -3,9 +3,9 @@ Courses:
     Course ID (Primary Key)
     Title
     Description
+    Instructor((Foreign Key to Instructor entity))
     Category (Foreign Key to Category entity)
     Duration
-    Instructor (Foreign key to Instructor entity)
 
 
 Students:
@@ -56,5 +56,3 @@ Categories:
     Category ID (Primary Key)
     Name
     Description
-
-    671a07957351572cae930bc0
